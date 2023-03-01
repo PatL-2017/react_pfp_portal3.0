@@ -1,0 +1,26 @@
+{
+  "name": "react_pfp_portal3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatL-2017/react_pfp_portal3.0.git"
+  },
+  "keywords": [],
+  "author": "Pat Lubak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatL-2017/react_pfp_portal3.0/issues"
+  },
+  "homepage": "https://github.com/PatL-2017/react_pfp_portal3.0#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
